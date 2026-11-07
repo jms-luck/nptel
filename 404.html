@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found | NPTEL</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; min-height: 100vh; display: flex; flex-direction: column; }
+
+      /* Header */
+      header { background: #7b1023; color: #fff; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+      .header-left { display: flex; align-items: center; gap: 1.5rem; }
+      .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.1rem; text-decoration: none; color: #fff; }
+      .logo-icon { width: 28px; height: 28px; background: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+      .logo-icon svg { width: 18px; height: 18px; }
+      nav a { color: #fff; text-decoration: none; font-size: 0.9rem; opacity: 0.9; display: flex; align-items: center; gap: 0.3rem; }
+      nav a:hover { opacity: 1; }
+      .user-info { font-size: 0.85rem; opacity: 0.9; display: flex; align-items: center; gap: 0.4rem; }
+
+      /* Banner */
+      .banner { background: #fff4f4; border-bottom: 1px solid #f5c6cb; padding: 0.6rem 1.5rem; font-size: 0.82rem; text-align: center; color: #555; line-height: 1.5; }
+      .banner a { color: #7b1023; }
+
+      /* Main content */
+      main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem 1rem; text-align: center; }
+      .warning-icon { margin-bottom: 1.5rem; }
+      .warning-icon svg { width: 80px; height: 80px; }
+      h1 { font-size: 2rem; font-weight: 600; margin-bottom: 0.75rem; color: #222; }
+      p { color: #666; font-size: 0.95rem; margin-bottom: 2rem; }
+      .btn-home { background: #7b1023; color: #fff; border: none; padding: 0.65rem 1.5rem; border-radius: 6px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+      .btn-home:hover { background: #5e0d1b; }
+
+      /* Footer */
+      footer { background: #f4f4f4; border-top: 1px solid #e0e0e0; padding: 2.5rem 3rem 1.5rem; }
+      .footer-grid { display: grid; grid-template-columns: 1fr 1.5fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+      .footer-logo { font-weight: 700; font-size: 1.1rem; color: #7b1023; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+      .footer-logo-icon { width: 32px; height: 32px; }
+      .footer-section h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.75rem; color: #222; }
+      .footer-section p { font-size: 0.82rem; color: #666; line-height: 1.6; }
+      .social-links { display: flex; gap: 0.75rem; margin-top: 0.75rem; }
+      .social-links a { color: #555; font-size: 0.8rem; text-decoration: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.3rem 0.5rem; }
+      .partners { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+      .partner-dot { width: 44px; height: 44px; border-radius: 50%; background: #ddd; border: 1px solid #ccc; }
+      .footer-bottom { border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.78rem; color: #888; text-align: center; }
+
+      /* Report problem button */
+      .report-btn { position: fixed; bottom: 1.5rem; right: 1.5rem; background: #7b1023; color: #fff; border: none; padding: 0.6rem 1.1rem; border-radius: 999px; font-size: 0.82rem; cursor: pointer; display: flex; align-items: center; gap: 0.4rem; box-shadow: 0 2px 8px rgba(0,0,0,0.2); text-decoration: none; }
+      .report-btn:hover { background: #5e0d1b; }
+
+      @media (max-width: 640px) {
+        .footer-grid { grid-template-columns: 1fr; }
+        .header-left nav { display: none; }
+        h1 { font-size: 1.5rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a class="logo" href="/">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="#7b1023"><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          NPTEL
+        </a>
+        <nav>
+          <a href="#">&#9783; Dashboard</a>
+        </nav>
+      </div>
+      <div class="user-info">&#9679; meenachisundaresan24@gmail.com &#9660;</div>
+    </header>
+
+    <div class="banner">
+      &#9432; Previous semester scores and certificates have been migrated to this website! Please check yours, and if anything is missing or incorrect, cross-verify against the <a href="#">old website (archive.nptel.ac.in)</a>, and if you still find an issue, <a href="#">report a problem</a>.
+    </div>
+
+    <main>
+      <div class="warning-icon">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 10 L95 88 H5 Z" fill="#FFC107" stroke="#FFA000" stroke-width="2" stroke-linejoin="round"/>
+          <text x="50" y="75" text-anchor="middle" font-size="44" font-weight="bold" fill="#5D4037">!</text>
+        </svg>
+      </div>
+      <h1>404 - Page Not Found</h1>
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <a class="btn-home" href="/">&#8962; Go to Home</a>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <svg class="footer-logo-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15" fill="#7b1023"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">N</text></svg>
+            NPTEL
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>About NPTEL</h4>
+          <p>National Programme on Technology Enhanced Learning (NPTEL) is a joint initiative of the IITs and IISc to offer online courses &amp; certification.<br><br>Funded by MoE, Govt. of India.</p>
+          <h4 style="margin-top:1rem">Follow Us</h4>
+          <div class="social-links">
+            <a href="#">f</a>
+            <a href="#">t</a>
+            <a href="#">&#9654;</a>
+            <a href="#">in</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Our Partners</h4>
+          <div class="partners">
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+            <div class="partner-dot"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 NPTEL - All rights reserved. National Programme on Technology Enhanced Learning, IIT Madras</div>
+    </footer>
+
+    <a class="report-btn" href="#">&#9873; Report a problem</a>
+  </body>
+</html>

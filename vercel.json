@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/nptel/verify/:path*", "destination": "/verify/:path*" }
+  ]
+}

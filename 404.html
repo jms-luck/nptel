@@ -12,8 +12,7 @@
       header { background: #7b1023; color: #fff; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
       .header-left { display: flex; align-items: center; gap: 1.5rem; }
       .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.1rem; text-decoration: none; color: #fff; }
-      .logo-icon { width: 28px; height: 28px; background: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
-      .logo-icon svg { width: 18px; height: 18px; }
+      .logo img { height: 28px; width: auto; }
       nav a { color: #fff; text-decoration: none; font-size: 0.9rem; opacity: 0.9; display: flex; align-items: center; gap: 0.3rem; }
       nav a:hover { opacity: 1; }
       .user-info { font-size: 0.85rem; opacity: 0.9; display: flex; align-items: center; gap: 0.4rem; }
@@ -35,13 +34,13 @@
       footer { background: #f4f4f4; border-top: 1px solid #e0e0e0; padding: 2.5rem 3rem 1.5rem; }
       .footer-grid { display: grid; grid-template-columns: 1fr 1.5fr 1fr; gap: 2rem; margin-bottom: 2rem; }
       .footer-logo { font-weight: 700; font-size: 1.1rem; color: #7b1023; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
-      .footer-logo-icon { width: 32px; height: 32px; }
+      .footer-logo img { height: 36px; width: auto; }
       .footer-section h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.75rem; color: #222; }
       .footer-section p { font-size: 0.82rem; color: #666; line-height: 1.6; }
       .social-links { display: flex; gap: 0.75rem; margin-top: 0.75rem; }
       .social-links a { color: #555; font-size: 0.8rem; text-decoration: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.3rem 0.5rem; }
       .partners { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
-      .partner-dot { width: 44px; height: 44px; border-radius: 50%; background: #ddd; border: 1px solid #ccc; }
+      .partners img { height: 44px; width: auto; object-fit: contain; }
       .footer-bottom { border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.78rem; color: #888; text-align: center; }
 
       /* Report problem button */
@@ -59,10 +58,7 @@
     <header>
       <div class="header-left">
         <a class="logo" href="/">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" fill="#7b1023"><circle cx="12" cy="12" r="10"/></svg>
-          </div>
-          NPTEL
+          <img src="https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg" alt="NPTEL" />
         </a>
         <nav>
           <a href="#">&#9783; Dashboard</a>
@@ -91,8 +87,7 @@
       <div class="footer-grid">
         <div>
           <div class="footer-logo">
-            <svg class="footer-logo-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15" fill="#7b1023"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">N</text></svg>
-            NPTEL
+            <img src="https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg" alt="NPTEL" />
           </div>
         </div>
         <div class="footer-section">
@@ -109,14 +104,14 @@
         <div class="footer-section">
           <h4>Our Partners</h4>
           <div class="partners">
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
-            <div class="partner-dot"></div>
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-madras.png" alt="IIT Madras" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-bombay.png" alt="IIT Bombay" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-delhi.png" alt="IIT Delhi" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-kanpur.png" alt="IIT Kanpur" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-kharagpur.png" alt="IIT Kharagpur" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-roorkee.png" alt="IIT Roorkee" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iit-guwahati.png" alt="IIT Guwahati" />
+            <img src="https://nptel.ac.in/assets/homepage-v3/logo-iisc-bangalore.png" alt="IISc Bangalore" />
           </div>
         </div>
       </div>
